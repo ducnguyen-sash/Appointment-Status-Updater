@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styling/main-style.css" />
+    <title>ezyVet Appointment Updater</title>
+  </head>
+  <body>
+    <h1>Appointment</h1>
+    <form method="GET" action="/consult" enctype="application/json">
+      <input type="text" id="input-field" name="contactCode" value="273948" />
+      <button type="submit" id="submit-btn" value="Submit">Submit</button>
+    </form>
+    <div class="appointment-area"></div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
